@@ -5,10 +5,11 @@ const Footer = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-6 col-md-6 footer-contact'>
-                            <h3>Conwell Pharmaceuticals</h3>
+                            <h3>Conwell Pharmaceuticals Pvt. Ltd.</h3>
                             <p>
-                                Ward 10 <br />
-                                Kharar, Punjab 140301
+                                Qr. No. 130, Satlapur, Goharganj Mandideep{' '}
+                                <br />
+                                Distt. Raisen, Madhya Pradesh (MP) - 426046
                                 <br />
                                 India <br />
                                 <br />

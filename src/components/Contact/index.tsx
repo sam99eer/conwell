@@ -13,15 +13,15 @@ const Contact = () => {
                                 <i className='icofont-google-map'></i>
                                 <h4>Location:</h4>
                                 <p>
-                                    Conwell Pharmaceuticals, Ward 10, Kharar,
-                                    Punjab, 140301
+                                    Qr. No. 130, Satlapur, Goharganj Mandideep,
+                                    Distt. Raisen, Madhya Pradesh (MP) - 426046
                                 </p>
                             </div>
 
                             <div className='email'>
                                 <i className='icofont-envelope'></i>
                                 <h4>Email:</h4>
-                                <p>conwell@example.com</p>
+                                <p>conwellpharmaceuticalpvtltd@gmail.com</p>
                             </div>
 
                             <div className='phone'>
