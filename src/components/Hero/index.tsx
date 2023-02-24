@@ -6,10 +6,10 @@ const Hero = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1'>
-                        <h1>Better Solutions For Your Business</h1>
+                        <h1>Online Solution For Your Medical Needs</h1>
                         <h2>
-                            We are team of talanted designers making websites
-                            with Bootstrap
+                            We at Conwell aim to deliver the best healthcare
+                            products and related services.
                         </h2>
                         <div className='d-lg-flex'>
                             <a
