@@ -1,8 +1,15 @@
 import { useEffect, useState } from 'react';
+import ReactDOM from 'react-dom';
 import Logo from '../../assets/images/logo.png';
+import MobileNav from '../MobileNav';
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isNavVisible, setIsNavVisible] = useState(false);
+
+    const toggleNav = () => {
+        setIsNavVisible((x) => !x);
+    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -23,10 +30,24 @@ const Header = () => {
 
     return (
         <>
-            <button type='button' className='mobile-nav-toggle d-lg-none'>
-                <i className='bx bx-menu'></i>
+            <button
+                type='button'
+                onClick={toggleNav}
+                className='mobile-nav-toggle d-lg-none'
+            >
+                {isNavVisible ? (
+                    <i className='bx bx-x'></i>
+                ) : (
+                    <i className='bx bx-menu'></i>
+                )}
             </button>
-            <div className='mobile-nav-overly'></div>
+            <MobileNav isVisible={isNavVisible} toggleHandler={toggleNav} />
+            {isNavVisible
+                ? ReactDOM.createPortal(
+                      <div className='mobile-nav-overly'></div>,
+                      document.getElementById('overlay')!
+                  )
+                : null}
             <header
                 id='header'
                 className={

@@ -15,6 +15,10 @@ body {
     color: #444444;
 }
 
+body:has(#overlay > .mobile-nav-overly) {
+    overflow: hidden;
+}
+
 a {
     color: var(--conwell-primary);
     text-decoration: none;
@@ -39,7 +43,6 @@ h5,
 h6 {
     font-family: 'Jost', sans-serif;
 }
-
 /*--------------------------------------------------------------
   # Back to top button
   --------------------------------------------------------------*/
@@ -267,15 +270,10 @@ h6 {
     position: fixed;
     background: rgba(40, 58, 90, 0.6);
     overflow: hidden;
-    display: none;
     transition: ease-in-out 0.2s;
 }
 
 .mobile-nav-active {
-    overflow: hidden;
-}
-
-.mobile-nav-active .mobile-nav {
     opacity: 1;
     visibility: visible;
 }
