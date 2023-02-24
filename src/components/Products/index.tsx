@@ -2,14 +2,18 @@ import { PRODUCT_DATA } from '../../constants/ProductData';
 
 const Products = () => {
     return (
-        <section id='portfolio' className='portfolio'>
+        <section id='portfolio' className='portfolio' data-aos='fade-up'>
             <div className='container'>
                 <div className='section-title'>
                     <h2>Products</h2>
                     <p>Conwell has a wide range of variety products</p>
                 </div>
 
-                <div className='row portfolio-container'>
+                <div
+                    className='row portfolio-container'
+                    data-aos='fade-up'
+                    data-aos-delay='200'
+                >
                     {PRODUCT_DATA.map((item) => (
                         <div
                             key={item.key}

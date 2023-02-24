@@ -1,3 +1,6 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import About from './components/About';
 import Call from './components/Call';
 import Contact from './components/Contact';
@@ -10,6 +13,15 @@ import Services from './components/Services';
 import WhyUs from './components/WhyUs';
 
 const App = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            delay: 100,
+            mirror: true,
+        });
+    }, []);
+
     return (
         <>
             <Header />

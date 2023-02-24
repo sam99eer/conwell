@@ -1,7 +1,7 @@
 const Contact = () => {
     return (
         <section id='contact' className='contact'>
-            <div className='container'>
+            <div className='container' data-aos='zoom-in'>
                 <div className='section-title'>
                     <h2>Contact</h2>
                 </div>
@@ -31,7 +31,7 @@ const Contact = () => {
                             </div>
 
                             <iframe
-                                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27431.91576855025!2d76.61727445176668!3d30.746797248263285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fe555e7bf2e91%3A0xffb409b433075d3!2sKharar%2C%20Punjab%20140301!5e0!3m2!1sen!2sin!4v1677223872441!5m2!1sen!2sin'
+                                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d648.6981323331453!2d77.52508476487094!3d23.112071248498015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c47690497e4e3%3A0xba67108cbfbbe7b4!2sSatlapur%20mandideep!5e0!3m2!1sen!2sin!4v1677232552701!5m2!1sen!2sin'
                                 style={{
                                     borderWidth: 0,
                                     width: '100%',

@@ -1,7 +1,7 @@
 const Services = () => {
     return (
         <section id='services' className='services'>
-            <div className='container'>
+            <div className='container' data-aos='fade-up'>
                 <div className='section-title'>
                     <h2>Services</h2>
                     <p>
@@ -12,7 +12,11 @@ const Services = () => {
                 </div>
 
                 <div className='row'>
-                    <div className='col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0'>
+                    <div
+                        className='col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0'
+                        data-aos='zoom-in'
+                        data-aos-delay='100'
+                    >
                         <div className='icon-box'>
                             <div className='icon'>
                                 <i className='bx bx-info-circle'></i>
@@ -29,7 +33,11 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className='col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0'>
+                    <div
+                        className='col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0'
+                        data-aos='zoom-in'
+                        data-aos-delay='200'
+                    >
                         <div className='icon-box'>
                             <div className='icon'>
                                 <i className='bx bx-star'></i>
@@ -46,7 +54,11 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className='col-xl-3 col-md-6 d-flex align-items-stretch'>
+                    <div
+                        className='col-xl-3 col-md-6 d-flex align-items-stretch'
+                        data-aos='zoom-in'
+                        data-aos-delay='300'
+                    >
                         <div className='icon-box'>
                             <div className='icon'>
                                 <i className='bx bx-headphone'></i>
@@ -63,7 +75,11 @@ const Services = () => {
                         </div>
                     </div>
 
-                    <div className='col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0'>
+                    <div
+                        className='col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0'
+                        data-aos='zoom-in'
+                        data-aos-delay='400'
+                    >
                         <div className='icon-box'>
                             <div className='icon'>
                                 <i className='bx bx-check-shield'></i>

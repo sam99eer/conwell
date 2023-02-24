@@ -1,7 +1,7 @@
 const Faq = () => {
     return (
         <section id='faq' className='faq section-bg'>
-            <div className='container'>
+            <div className='container' data-aos='fade-up'>
                 <div className='section-title'>
                     <h2>Frequently Asked Questions</h2>
                     <p>
@@ -12,7 +12,7 @@ const Faq = () => {
 
                 <div className='faq-list'>
                     <ul>
-                        <li>
+                        <li data-aos='fade-up' data-aos-delay='100'>
                             <i className='bx bx-help-circle icon-help'></i>{' '}
                             <a
                                 data-toggle='collapse'
@@ -39,7 +39,7 @@ const Faq = () => {
                             </div>
                         </li>
 
-                        <li>
+                        <li data-aos='fade-up' data-aos-delay='200'>
                             <i className='bx bx-help-circle icon-help'></i>{' '}
                             <a
                                 data-toggle='collapse'
@@ -67,7 +67,7 @@ const Faq = () => {
                             </div>
                         </li>
 
-                        <li>
+                        <li data-aos='fade-up' data-aos-delay='300'>
                             <i className='bx bx-help-circle icon-help'></i>{' '}
                             <a
                                 data-toggle='collapse'
@@ -94,7 +94,7 @@ const Faq = () => {
                             </div>
                         </li>
 
-                        <li>
+                        <li data-aos='fade-up' data-aos-delay='400'>
                             <i className='bx bx-help-circle icon-help'></i>{' '}
                             <a
                                 data-toggle='collapse'

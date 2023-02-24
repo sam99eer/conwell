@@ -1,7 +1,7 @@
 const Call = () => {
     return (
         <section id='cta' className='cta'>
-            <div className='container'>
+            <div className='container' data-aos='zoom-in'>
                 <div className='row'>
                     <div className='col-lg-9 text-center text-lg-left'>
                         <h3>Need Instant Support?</h3>
