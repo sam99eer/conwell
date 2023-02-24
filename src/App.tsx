@@ -1,5 +1,6 @@
 import About from './components/About';
 import Call from './components/Call';
+import Faq from './components/Faq';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
@@ -14,6 +15,7 @@ const App = () => {
             <WhyUs />
             <Services />
             <Call />
+            <Faq />
         </>
     );
 };
