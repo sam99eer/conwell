@@ -11,14 +11,11 @@ const Call = () => {
                         </p>
                     </div>
                     <div className='col-lg-3 cta-btn-container text-center'>
-                        <a
-                            className='cta-btn align-middle d-flex align-items-center'
-                            href='#'
-                        >
+                        <a className='cta-btn align-middle d-flex align-items-center justify-content-center'>
                             <div className='icon d-flex align-items-center'>
-                                <i className='bx bxl-whatsapp'></i>
+                                <i className='bx bxl-whatsapp whatsappicon'></i>
                             </div>
-                            <p className='m-0 pl-2'>Chat Now</p>
+                            <p className='m-0 px-2'>Chat Now</p>
                         </a>
                     </div>
                 </div>

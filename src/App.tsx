@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Products from './components/Products';
+import ScrollToTop from './components/ScrollToTop';
 import Services from './components/Services';
 import WhyUs from './components/WhyUs';
 
@@ -16,8 +17,8 @@ const App = () => {
     useEffect(() => {
         AOS.init({
             duration: 1000,
-            easing: 'ease-in-out',
-            delay: 100,
+            easing: 'ease',
+            delay: 0,
             mirror: true,
         });
     }, []);
@@ -34,6 +35,7 @@ const App = () => {
             <Faq />
             <Contact />
             <Footer />
+            <ScrollToTop />
         </>
     );
 };

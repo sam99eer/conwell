@@ -10,7 +10,7 @@ const WhyUs = () => {
 
                         <div className='accordion-list'>
                             <ul>
-                                <li>
+                                <li data-aos='fade-up' data-aos-delay='100'>
                                     <a
                                         data-toggle='collapse'
                                         className='collapse'
@@ -34,7 +34,7 @@ const WhyUs = () => {
                                     </div>
                                 </li>
 
-                                <li>
+                                <li data-aos='fade-up' data-aos-delay='200'>
                                     <a
                                         data-toggle='collapse'
                                         href='#accordion-list-2'
@@ -59,7 +59,7 @@ const WhyUs = () => {
                                     </div>
                                 </li>
 
-                                <li>
+                                <li data-aos='fade-up' data-aos-delay='300'>
                                     <a
                                         data-toggle='collapse'
                                         href='#accordion-list-3'
@@ -82,7 +82,7 @@ const WhyUs = () => {
                                     </div>
                                 </li>
 
-                                <li>
+                                <li data-aos='fade-up' data-aos-delay='400'>
                                     <a
                                         data-toggle='collapse'
                                         href='#accordion-list-4'
