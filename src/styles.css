@@ -4,9 +4,10 @@
 
 :root {
     --conwell-primary: #e52428;
-    --conwell-primary-light: #e75255;
+    --conwell-primary-light: #e04b4d;
     --conwell-active-button: #e73537;
     --conwell-active-link: #f7c5cc;
+    --conwell-image-bg-overlay: rgba(211, 59, 62, 0.9);
 }
 
 body {
@@ -776,8 +777,11 @@ section {
   # Cta
   --------------------------------------------------------------*/
 .cta {
-    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
-        url('../img/cta-bg.jpg') fixed center center;
+    background: linear-gradient(
+            var(--conwell-image-bg-overlay),
+            var(--conwell-image-bg-overlay)
+        ),
+        url('./assets/images/cta.jpg') fixed center center;
     background-size: cover;
     padding: 120px 0;
 }
