@@ -15,9 +15,9 @@ const Faq = () => {
                         <li data-aos='fade-up' data-aos-delay='100'>
                             <i className='bx bx-help-circle icon-help'></i>{' '}
                             <a
-                                data-toggle='collapse'
+                                data-bs-toggle='collapse'
                                 className='collapse'
-                                href='#faq-list-1'
+                                data-bs-target='#faq-list-1'
                             >
                                 Is it safe to order medications online from a
                                 pharmaceutical website?
@@ -27,7 +27,7 @@ const Faq = () => {
                             <div
                                 id='faq-list-1'
                                 className='collapse show'
-                                data-parent='.faq-list'
+                                data-bs-parent='.faq-list'
                             >
                                 <p>
                                     Yes, it is safe to order medications online
@@ -42,8 +42,8 @@ const Faq = () => {
                         <li data-aos='fade-up' data-aos-delay='200'>
                             <i className='bx bx-help-circle icon-help'></i>{' '}
                             <a
-                                data-toggle='collapse'
-                                href='#faq-list-2'
+                                data-bs-toggle='collapse'
+                                data-bs-target='#faq-list-2'
                                 className='collapsed'
                             >
                                 Are the medications sold on pharmaceutical
@@ -55,7 +55,7 @@ const Faq = () => {
                             <div
                                 id='faq-list-2'
                                 className='collapse'
-                                data-parent='.faq-list'
+                                data-bs-parent='.faq-list'
                             >
                                 <p>
                                     Yes, the medications sold on pharmaceutical
@@ -70,8 +70,8 @@ const Faq = () => {
                         <li data-aos='fade-up' data-aos-delay='300'>
                             <i className='bx bx-help-circle icon-help'></i>{' '}
                             <a
-                                data-toggle='collapse'
-                                href='#faq-list-3'
+                                data-bs-toggle='collapse'
+                                data-bs-target='#faq-list-3'
                                 className='collapsed'
                             >
                                 How can I ensure that the pharmaceutical website
@@ -82,7 +82,7 @@ const Faq = () => {
                             <div
                                 id='faq-list-3'
                                 className='collapse'
-                                data-parent='.faq-list'
+                                data-bs-parent='.faq-list'
                             >
                                 <p>
                                     Make sure to choose a website that is
@@ -97,8 +97,8 @@ const Faq = () => {
                         <li data-aos='fade-up' data-aos-delay='400'>
                             <i className='bx bx-help-circle icon-help'></i>{' '}
                             <a
-                                data-toggle='collapse'
-                                href='#faq-list-4'
+                                data-bs-toggle='collapse'
+                                data-bs-target='#faq-list-4'
                                 className='collapsed'
                             >
                                 Can I get advice from a healthcare professional
@@ -109,7 +109,7 @@ const Faq = () => {
                             <div
                                 id='faq-list-4'
                                 className='collapse'
-                                data-parent='.faq-list'
+                                data-bs-parent='.faq-list'
                             >
                                 <p>
                                     Yes, we have a team of healthcare

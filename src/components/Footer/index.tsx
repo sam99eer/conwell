@@ -13,10 +13,10 @@ const Footer = () => {
                                 <br />
                                 India <br />
                                 <br />
-                                <strong>Phone:</strong> +91 99999 99999
+                                <strong>Phone:</strong> +91 99931-24348
                                 <br />
-                                <strong>Email:</strong> conwell@example.com
-                                <br />
+                                <strong>Email:</strong>{' '}
+                                conwellpharmaceuticalpvtltd@gmail.com
                             </p>
                         </div>
 
@@ -25,19 +25,19 @@ const Footer = () => {
                             <ul>
                                 <li>
                                     <i className='bx bx-chevron-right'></i>{' '}
-                                    <a href='#'>Home</a>
+                                    <a href='#hero'>Home</a>
                                 </li>
                                 <li>
                                     <i className='bx bx-chevron-right'></i>{' '}
-                                    <a href='#'>About us</a>
+                                    <a href='#about'>About us</a>
                                 </li>
                                 <li>
                                     <i className='bx bx-chevron-right'></i>{' '}
-                                    <a href='#'>Products</a>
+                                    <a href='#products'>Products</a>
                                 </li>
                                 <li>
                                     <i className='bx bx-chevron-right'></i>{' '}
-                                    <a href='#'>Contact Us</a>
+                                    <a href='#cta'>Contact Us</a>
                                 </li>
                             </ul>
                         </div>

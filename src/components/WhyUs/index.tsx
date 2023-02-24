@@ -12,9 +12,9 @@ const WhyUs = () => {
                             <ul>
                                 <li data-aos='fade-up' data-aos-delay='100'>
                                     <a
-                                        data-toggle='collapse'
+                                        data-bs-toggle='collapse'
                                         className='collapse'
-                                        href='#accordion-list-1'
+                                        data-bs-target='#accordion-list-1'
                                     >
                                         <span>01</span>Quality Products{' '}
                                         <i className='bx bx-chevron-down icon-show'></i>
@@ -23,7 +23,7 @@ const WhyUs = () => {
                                     <div
                                         id='accordion-list-1'
                                         className='collapse show'
-                                        data-parent='.accordion-list'
+                                        data-bs-parent='.accordion-list'
                                     >
                                         <p>
                                             Conwell provides top-quality
@@ -36,8 +36,8 @@ const WhyUs = () => {
 
                                 <li data-aos='fade-up' data-aos-delay='200'>
                                     <a
-                                        data-toggle='collapse'
-                                        href='#accordion-list-2'
+                                        data-bs-toggle='collapse'
+                                        data-bs-target='#accordion-list-2'
                                         className='collapsed'
                                     >
                                         <span>02</span>Expertise{' '}
@@ -47,7 +47,7 @@ const WhyUs = () => {
                                     <div
                                         id='accordion-list-2'
                                         className='collapse'
-                                        data-parent='.accordion-list'
+                                        data-bs-parent='.accordion-list'
                                     >
                                         <p>
                                             Our team of experts has years of
@@ -61,8 +61,8 @@ const WhyUs = () => {
 
                                 <li data-aos='fade-up' data-aos-delay='300'>
                                     <a
-                                        data-toggle='collapse'
-                                        href='#accordion-list-3'
+                                        data-bs-toggle='collapse'
+                                        data-bs-target='#accordion-list-3'
                                         className='collapsed'
                                     >
                                         <span>03</span>Convenience{' '}
@@ -72,20 +72,20 @@ const WhyUs = () => {
                                     <div
                                         id='accordion-list-3'
                                         className='collapse'
-                                        data-parent='.accordion-list'
+                                        data-bs-parent='.accordion-list'
                                     >
                                         <p>
                                             Our website is easy to navigate,
                                             making it easy for you to find the
-                                            products you need
+                                            products you need.
                                         </p>
                                     </div>
                                 </li>
 
                                 <li data-aos='fade-up' data-aos-delay='400'>
                                     <a
-                                        data-toggle='collapse'
-                                        href='#accordion-list-4'
+                                        data-bs-toggle='collapse'
+                                        data-bs-target='#accordion-list-4'
                                         className='collapsed'
                                     >
                                         <span>04</span>Trustworthy{' '}
@@ -95,16 +95,13 @@ const WhyUs = () => {
                                     <div
                                         id='accordion-list-4'
                                         className='collapse'
-                                        data-parent='.accordion-list'
+                                        data-bs-parent='.accordion-list'
                                     >
                                         <p>
                                             Conwell is a reputable company with
                                             a proven track record of providing
                                             high-quality products and excellent
-                                            customer service. You can trust us
-                                            to provide you with the best
-                                            products and services in the
-                                            pharmaceutical industry.
+                                            customer service.
                                         </p>
                                     </div>
                                 </li>

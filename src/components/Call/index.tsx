@@ -11,7 +11,11 @@ const Call = () => {
                         </p>
                     </div>
                     <div className='col-lg-3 cta-btn-container text-center'>
-                        <a className='cta-btn align-middle d-flex align-items-center justify-content-center'>
+                        <a
+                            href='https://wa.me/919993124348?text=I%27m%20interested%20in%20your%20Conwell%20Pharmaceutical%20products'
+                            target='_blank'
+                            className='cta-btn align-middle d-flex align-items-center justify-content-center'
+                        >
                             <div className='icon d-flex align-items-center'>
                                 <i className='bx bxl-whatsapp whatsappicon'></i>
                             </div>

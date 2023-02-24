@@ -10,7 +10,7 @@ const Contact = () => {
                     <div className='col-lg-12 d-flex align-items-stretch'>
                         <div className='info'>
                             <div className='address'>
-                                <i className='icofont-google-map'></i>
+                                <i className='bx bx-map'></i>
                                 <h4>Location:</h4>
                                 <p>
                                     Qr. No. 130, Satlapur, Goharganj Mandideep,
@@ -19,15 +19,15 @@ const Contact = () => {
                             </div>
 
                             <div className='email'>
-                                <i className='icofont-envelope'></i>
+                                <i className='bx bx-envelope'></i>
                                 <h4>Email:</h4>
                                 <p>conwellpharmaceuticalpvtltd@gmail.com</p>
                             </div>
 
                             <div className='phone'>
-                                <i className='icofont-phone'></i>
+                                <i className='bx bx-phone'></i>
                                 <h4>Call:</h4>
-                                <p>+91 99999 99999</p>
+                                <p>+91 99931-24348</p>
                             </div>
 
                             <iframe

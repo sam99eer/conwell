@@ -13,7 +13,7 @@ const Services = () => {
 
                 <div className='row'>
                     <div
-                        className='col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0'
+                        className='col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0'
                         data-aos='zoom-in'
                         data-aos-delay='100'
                     >
@@ -22,7 +22,7 @@ const Services = () => {
                                 <i className='bx bx-info-circle'></i>
                             </div>
                             <h4>
-                                <a href=''>Product Information</a>
+                                <a>Product Information</a>
                             </h4>
                             <p>
                                 Conwell provides detailed information about the
@@ -55,7 +55,7 @@ const Services = () => {
                     </div>
 
                     <div
-                        className='col-xl-3 col-md-6 d-flex align-items-stretch'
+                        className='col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0'
                         data-aos='zoom-in'
                         data-aos-delay='300'
                     >

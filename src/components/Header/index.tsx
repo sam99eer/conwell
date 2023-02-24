@@ -24,7 +24,7 @@ const Header = () => {
     return (
         <>
             <button type='button' className='mobile-nav-toggle d-lg-none'>
-                <i className='icofont-navigation-menu'></i>
+                <i className='bx bx-menu'></i>
             </button>
             <div className='mobile-nav-overly'></div>
             <header
@@ -51,13 +51,13 @@ const Header = () => {
                     <nav className='nav-menu d-none d-lg-block'>
                         <ul>
                             <li className='active'>
-                                <a href='index.html'>Home</a>
+                                <a href='#hero'>Home</a>
                             </li>
                             <li>
                                 <a href='#about'>About</a>
                             </li>
                             <li>
-                                <a href='#services'>Products</a>
+                                <a href='#products'>Products</a>
                             </li>
                             <li>
                                 <a href='#contact'>Contact</a>
@@ -65,8 +65,8 @@ const Header = () => {
                         </ul>
                     </nav>
 
-                    <a href='#about' className='get-started-btn scrollto'>
-                        Get Started
+                    <a href='#cta' className='get-started-btn scrollto'>
+                        Get in Touch
                     </a>
                 </div>
             </header>

@@ -24,7 +24,7 @@ const ScrollToTop = () => {
             className={`back-to-top ${isVisible ? 'visible' : 'hidden'}`}
             onClick={handleClick}
         >
-            <i className='ri-arrow-up-line'></i>
+            <i className='bx bx-up-arrow-alt'></i>
         </button>
     );
 };

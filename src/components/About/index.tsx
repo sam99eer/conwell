@@ -19,19 +19,18 @@ const About = () => {
                         </p>
                         <ul>
                             <li>
-                                <i className='ri-check-double-line'></i>
+                                <i className='bx bx-check'></i>
                                 Committed to providing exceptional customer
                                 service and ensuring that our customers have a
                                 positive experience when shopping with us
                             </li>
                             <li>
-                                <i className='ri-check-double-line'></i> Highly
-                                trained pharmacists and healthcare professionals
-                                team
+                                <i className='bx bx-check'></i> Highly trained
+                                pharmacists and healthcare professionals team
                             </li>
                             <li>
-                                <i className='ri-check-double-line'></i> Helping
-                                people to live healthier and happier lives
+                                <i className='bx bx-check'></i> Helping people
+                                to live healthier and happier lives
                             </li>
                         </ul>
                     </div>

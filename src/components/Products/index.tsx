@@ -2,7 +2,7 @@ import { PRODUCT_DATA } from '../../constants/ProductData';
 
 const Products = () => {
     return (
-        <section id='portfolio' className='portfolio'>
+        <section id='products' className='portfolio'>
             <div className='container' data-aos='fade-up'>
                 <div className='section-title'>
                     <h2>Products</h2>
