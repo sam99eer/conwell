@@ -13,18 +13,20 @@ import { ProductDataModel } from '../models/ProductDataModel';
 export const PRODUCT_DATA = [
     {
         key: 'Product_1',
-        title: 'CO-Rozi',
-        image: [product2Png],
+        title: 'Convita-Gold',
+        image: [product17Png],
         description:
-            'CO-Rozi tablets are very effective for treatment of joint pain. It contains anti-inflammatory and antioxidants. It ensures pain free moblity.',
+            'Convita Gold is a smart calcium capsule that helps to increase bone formation, bone mineralisation, and improves bone health. It also fulfils the need of calcium in our body.',
     },
+
     {
         key: 'Product_2',
-        title: 'ConRab-DSR',
-        image: [product12Png],
+        title: 'Cdp-Aqua',
+        image: [product19Png],
         description:
-            'ConRab-DSR capsules helps in curing gastric / duodenal ulcers, acid peptic disorder, heart burn, GERD, Dypepsia, Erosive Esophagitis, etc.',
+            'Cdp-Aqua helps in various painful and inflammatory conditions. It is a very effective drug in acute migraine attacks. It is safe and effective option for control of postoperative pain, effective and safe for postoperative analgesia in orthopaedic surgery.',
     },
+
     {
         key: 'Product_3',
         title: 'Conpod-200 DT',
@@ -34,6 +36,20 @@ export const PRODUCT_DATA = [
     },
     {
         key: 'Product_4',
+        title: 'CO-Rozi',
+        image: [product2Png],
+        description:
+            'CO-Rozi tablets are very effective for treatment of joint pain. It contains anti-inflammatory and antioxidants. It ensures pain free moblity.',
+    },
+    {
+        key: 'Product_5',
+        title: 'ConRab-DSR',
+        image: [product12Png],
+        description:
+            'ConRab-DSR capsules helps in curing gastric / duodenal ulcers, acid peptic disorder, heart burn, GERD, Dypepsia, Erosive Esophagitis, etc.',
+    },
+    {
+        key: 'Product_6',
         title: 'Convit',
         image: [product4Png],
         description:
@@ -41,32 +57,17 @@ export const PRODUCT_DATA = [
     },
 
     {
-        key: 'Product_5',
+        key: 'Product_7',
         title: 'Cdp-SP',
         image: [product9Png],
         description:
             'Cdp-SP heals lower pain, muscular and skeletal pain, osteoarthritis, rheumatoid arthritis, dental pain, etc. It is the knock down for the pain and inflammation. Take it twice a day to get relieve from the pain.',
     },
     {
-        key: 'Product_6',
+        key: 'Product_8',
         title: 'Cdp',
         image: [product10Png],
         description:
             'Cdp tablets are helpful in reducing inflammation from where it arises. It helps in curing pain and inflammation, musculoskeletal disorders, dislocations and fractures, and osteoarthritis.',
-    },
-    {
-        key: 'Product_7',
-        title: 'Convita-Gold',
-        image: [product17Png],
-        description:
-            'Convita Gold is a smart calcium capsule that helps to increase bone formation, bone mineralisation, and improves bone health. It also fulfils the need of calcium in our body.',
-    },
-
-    {
-        key: 'Product_8',
-        title: 'Cdp-Aqua',
-        image: [product19Png],
-        description:
-            'Cdp-Aqua helps in various painful and inflammatory conditions. It is a very effective drug in acute migraine attacks. It is safe and effective option for control of postoperative pain, effective and safe for postoperative analgesia in orthopaedic surgery.',
     },
 ] as ProductDataModel[];
