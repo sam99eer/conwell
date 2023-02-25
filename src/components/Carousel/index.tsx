@@ -52,7 +52,10 @@ const Carousel = (props: { data: ProductDataModel; onClose: () => void }) => {
                         ))}
                     </aside>
                 </div>
-                <div className='carousel-content'>
+                <div
+                    className='carousel-content'
+                    onClick={(e) => e.stopPropagation()}
+                >
                     <h3>Product Name</h3>
                     <p>{props.data?.title}</p>
                     <h3>Product Description</h3>

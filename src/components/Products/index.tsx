@@ -12,6 +12,7 @@ const Products = () => {
             key: '',
             image: [''],
             title: '',
+            description: '',
         },
     });
 
@@ -29,6 +30,7 @@ const Products = () => {
                 key: '',
                 image: [''],
                 title: '',
+                description: '',
             },
         });
     };
