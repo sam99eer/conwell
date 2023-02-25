@@ -72,7 +72,7 @@ const Header = () => {
                     <nav className='nav-menu d-none d-lg-block'>
                         <ul>
                             <li className='active'>
-                                <a href='#hero'>Home</a>
+                                <a href='#home'>Home</a>
                             </li>
                             <li>
                                 <a href='#about'>About</a>
@@ -81,12 +81,12 @@ const Header = () => {
                                 <a href='#products'>Products</a>
                             </li>
                             <li>
-                                <a href='#contact'>Contact</a>
+                                <a href='#contactus'>Contact</a>
                             </li>
                         </ul>
                     </nav>
 
-                    <a href='#cta' className='get-started-btn scrollto'>
+                    <a href='#contactus' className='get-started-btn scrollto'>
                         Get in Touch
                     </a>
                 </div>

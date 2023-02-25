@@ -25,7 +25,7 @@ const Footer = () => {
                             <ul>
                                 <li>
                                     <i className='bx bx-chevron-right'></i>{' '}
-                                    <a href='#hero'>Home</a>
+                                    <a href='#home'>Home</a>
                                 </li>
                                 <li>
                                     <i className='bx bx-chevron-right'></i>{' '}
@@ -37,7 +37,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <i className='bx bx-chevron-right'></i>{' '}
-                                    <a href='#cta'>Contact Us</a>
+                                    <a href='#contactus'>Contact Us</a>
                                 </li>
                             </ul>
                         </div>

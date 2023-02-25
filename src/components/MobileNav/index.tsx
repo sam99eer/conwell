@@ -10,7 +10,7 @@ const MobileNav = (props: {
         >
             <ul>
                 <li className='active'>
-                    <a onClick={props.toggleHandler} href='#hero'>
+                    <a onClick={props.toggleHandler} href='#home'>
                         Home
                     </a>
                 </li>
@@ -25,7 +25,7 @@ const MobileNav = (props: {
                     </a>
                 </li>
                 <li>
-                    <a onClick={props.toggleHandler} href='#cta '>
+                    <a onClick={props.toggleHandler} href='#contactus '>
                         Contact
                     </a>
                 </li>

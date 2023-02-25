@@ -2,7 +2,7 @@ import pharmacy from '../../assets/images/pharmacy.png';
 
 const Hero = () => {
     return (
-        <section id='hero' className='d-flex align-items-center'>
+        <section id='home' className='d-flex align-items-center'>
             <div className='container'>
                 <div className='row'>
                     <div

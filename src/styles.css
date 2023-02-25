@@ -50,7 +50,7 @@ h6 {
     position: fixed;
     right: 15px;
     bottom: 15px;
-    z-index: 99999;
+    z-index: 9996;
 }
 
 .back-to-top.visible {
@@ -77,6 +77,79 @@ h6 {
 .back-to-top i:hover {
     background: var(--conwell-active-button);
     color: #fff;
+}
+
+/*--------------------------------------------------------------
+  # Carousel
+  --------------------------------------------------------------*/
+.carousel-wrapper {
+    max-width: 90%;
+    max-height: 90%;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    overflow-y: scroll;
+    padding: 1rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    position: relative;
+}
+
+.carousel-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-wrapper .carousel-inner {
+    max-height: 80%;
+    min-width: 80vw;
+    flex: 1;
+}
+
+.carousel-wrapper .carousel-inner img {
+    max-height: 80vw;
+    object-fit: contain;
+}
+
+.carousel-wrapper .carousel-content {
+    padding: 1rem;
+}
+
+.carousel-wrapper .carousel-close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    z-index: 2;
+    border-radius: 1rem;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-wrapper .carousel-close:hover {
+    opacity: 0.5;
+}
+
+.carousel-wrapper .carousel-close i {
+    font-size: 2rem;
+}
+
+.carousel-wrapper #indicators {
+    gap: 1rem;
+}
+
+.carousel-wrapper .side-image {
+    gap: 1rem;
+    margin: 2.5rem auto;
+}
+
+.carousel-wrapper .side-image img {
+    max-height: 80px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.carousel_sideimage_active {
+    outline: 0.15rem solid black;
 }
 
 /*--------------------------------------------------------------
@@ -271,6 +344,9 @@ h6 {
     background: rgba(40, 58, 90, 0.6);
     overflow: hidden;
     transition: ease-in-out 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mobile-nav-active {
@@ -285,17 +361,17 @@ h6 {
 /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
-#hero {
+#home {
     width: 100%;
     height: 80vh;
     background: var(--conwell-primary-light);
 }
 
-#hero .container {
+#home .container {
     padding-top: 72px;
 }
 
-#hero h1 {
+#home h1 {
     margin: 0 0 10px 0;
     font-size: 48px;
     font-weight: 700;
@@ -303,13 +379,13 @@ h6 {
     color: #fff;
 }
 
-#hero h2 {
+#home h2 {
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 50px;
     font-size: 24px;
 }
 
-#hero .btn-get-started {
+#home .btn-get-started {
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -323,11 +399,11 @@ h6 {
     background: var(--conwell-primary);
 }
 
-#hero .btn-get-started:hover {
+#home .btn-get-started:hover {
     background: var(--conwell-active-button);
 }
 
-#hero .btn-watch-video {
+#home .btn-watch-video {
     font-size: 16px;
     display: inline-block;
     padding: 10px 0 8px 40px;
@@ -337,7 +413,7 @@ h6 {
     position: relative;
 }
 
-#hero .btn-watch-video i {
+#home .btn-watch-video i {
     color: #fff;
     font-size: 32px;
     position: absolute;
@@ -346,60 +422,60 @@ h6 {
     transition: 0.3s;
 }
 
-#hero .btn-watch-video:hover i {
+#home .btn-watch-video:hover i {
     color: var(--conwell-primary);
 }
 
-#hero .animated {
+#home .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 @media (max-width: 991px) {
-    #hero {
+    #home {
         height: 100vh;
         text-align: center;
     }
-    #hero .animated {
+    #home .animated {
         -webkit-animation: none;
         animation: none;
     }
-    #hero .hero-img {
+    #home .hero-img {
         text-align: center;
     }
-    #hero .hero-img img {
+    #home .hero-img img {
         width: 50%;
     }
 }
 
 @media (max-width: 768px) {
-    #hero h1 {
+    #home h1 {
         font-size: 28px;
         line-height: 36px;
     }
-    #hero h2 {
+    #home h2 {
         font-size: 18px;
         line-height: 24px;
         margin-bottom: 30px;
     }
-    #hero .hero-img img {
+    #home .hero-img img {
         width: 70%;
     }
 }
 
 @media (max-width: 575px) {
-    #hero .hero-img img {
+    #home .hero-img img {
         width: 80%;
     }
-    #hero .btn-get-started {
+    #home .btn-get-started {
         font-size: 16px;
         padding: 10px 24px 11px 24px;
     }
-    #hero .btn-watch-video {
+    #home .btn-watch-video {
         font-size: 16px;
         padding: 10px 0 8px 40px;
         margin-left: 20px;
     }
-    #hero .btn-watch-video i {
+    #home .btn-watch-video i {
         font-size: 32px;
         top: 7px;
     }
