@@ -38,7 +38,7 @@ const VisualAds = () => {
             <section id='products' className='portfolio'>
                 <div className='container' data-aos='fade-up'>
                     <div className='section-title'>
-                        <h2>Visual Ad</h2>
+                        <h2>Visual Aid</h2>
                     </div>
 
                     <div className='row portfolio-container'>
