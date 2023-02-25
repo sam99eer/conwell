@@ -11,6 +11,7 @@ import Hero from './components/Hero';
 import Products from './components/Products';
 import ScrollToTop from './components/ScrollToTop';
 import Services from './components/Services';
+import VisualAds from './components/VisualAds';
 import WhyUs from './components/WhyUs';
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
             <Services />
             <Call />
             <Products />
+            <VisualAds />
             <Faq />
             <Contact />
             <Footer />

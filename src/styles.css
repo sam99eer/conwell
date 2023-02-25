@@ -3,11 +3,11 @@
 --------------------------------------------------------------*/
 
 :root {
-    --conwell-primary: #e52428;
-    --conwell-primary-light: #e04b4d;
-    --conwell-active-button: #e73537;
-    --conwell-active-link: #f7c5cc;
-    --conwell-image-bg-overlay: rgba(211, 59, 62, 0.9);
+    --conwell-primary: #006c72;
+    --conwell-primary-light: #009aa3;
+    --conwell-active-button: #16f3ff;
+    --conwell-active-link: #c9fcfe;
+    --conwell-image-bg-overlay: rgba(0, 108, 114, 0.9);
 }
 
 body {
@@ -883,6 +883,8 @@ section {
 
 .portfolio .portfolio-item .portfolio-img img {
     transition: all 0.6s;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 
 .portfolio .portfolio-item .portfolio-info {

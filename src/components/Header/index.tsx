@@ -6,6 +6,7 @@ import MobileNav from '../MobileNav';
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isNavVisible, setIsNavVisible] = useState(false);
+    const url = window.location.href.split('/').at(-1);
 
     const toggleNav = () => {
         setIsNavVisible((x) => !x);
@@ -71,16 +72,18 @@ const Header = () => {
 
                     <nav className='nav-menu d-none d-lg-block'>
                         <ul>
-                            <li className='active'>
+                            <li className={url === '#home' ? 'active' : ''}>
                                 <a href='#home'>Home</a>
                             </li>
-                            <li>
+                            <li className={url === '#about' ? 'active' : ''}>
                                 <a href='#about'>About</a>
                             </li>
-                            <li>
+                            <li className={url === '#products' ? 'active' : ''}>
                                 <a href='#products'>Products</a>
                             </li>
-                            <li>
+                            <li
+                                className={url === '#contactus' ? 'active' : ''}
+                            >
                                 <a href='#contactus'>Contact</a>
                             </li>
                         </ul>
