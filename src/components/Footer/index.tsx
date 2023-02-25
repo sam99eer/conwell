@@ -15,8 +15,7 @@ const Footer = () => {
                                 <br />
                                 <strong>Phone:</strong> +91 99931-24348
                                 <br />
-                                <strong>Email:</strong>{' '}
-                                conwellpharmaceuticalpvtltd@gmail.com
+                                <strong>Email:</strong> conwellpharma@gmail.com
                             </p>
                         </div>
 

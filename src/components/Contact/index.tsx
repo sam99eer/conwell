@@ -21,7 +21,7 @@ const Contact = () => {
                             <div className='email'>
                                 <i className='bx bx-envelope'></i>
                                 <h4>Email:</h4>
-                                <p>conwellpharmaceuticalpvtltd@gmail.com</p>
+                                <p>conwellpharma@gmail.com</p>
                             </div>
 
                             <div className='phone'>
