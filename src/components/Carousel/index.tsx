@@ -56,7 +56,7 @@ const Carousel = (props: { data: ProductDataModel; onClose: () => void }) => {
                     <h3>Product Name</h3>
                     <p>{props.data?.title}</p>
                     <h3>Product Description</h3>
-                    <p>Test Description</p>
+                    <p>{props.data?.description}</p>
                 </div>
             </div>
         </div>
