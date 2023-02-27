@@ -62,12 +62,6 @@ const Header = () => {
                             alt='Conwell Logo'
                             className='img-fluid'
                         />
-                        <a
-                            className='d-none d-md-block logo ps-3'
-                            href='index.html'
-                        >
-                            Conwell
-                        </a>
                     </p>
 
                     <nav className='nav-menu d-none d-lg-block'>

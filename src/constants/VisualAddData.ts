@@ -7,6 +7,7 @@ import add14 from '../assets/products/14.jpg';
 import add15 from '../assets/products/15.jpg';
 import add16 from '../assets/products/16.jpg';
 import add2 from '../assets/products/2.jpg';
+import add17 from '../assets/products/20.jpeg';
 import add3 from '../assets/products/3.jpg';
 import add4 from '../assets/products/4.jpg';
 import add5 from '../assets/products/5.jpg';
@@ -75,5 +76,9 @@ export const VISUAL_ADD_DATA = [
     {
         key: 'Add_16',
         images: [add16],
+    },
+    {
+        key: 'Add_17',
+        images: [add17],
     },
 ];

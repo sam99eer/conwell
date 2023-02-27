@@ -181,7 +181,7 @@ h6 {
 }
 
 #header .logo img {
-    max-height: 40px;
+    max-height: 60px;
 }
 
 /*--------------------------------------------------------------
@@ -254,7 +254,7 @@ h6 {
 /* Mobile Navigation */
 .mobile-nav-toggle {
     position: fixed;
-    top: 20px;
+    top: 32px;
     right: 15px;
     z-index: 9998;
     border: 0;
@@ -503,7 +503,7 @@ h6 {
   # Sections General
   --------------------------------------------------------------*/
 section {
-    padding: 75px 0;
+    padding: 90px 0;
     overflow: hidden;
 }
 

@@ -35,7 +35,7 @@ const VisualAds = () => {
                       document.getElementById('overlay')!
                   )
                 : null}
-            <section id='products' className='portfolio'>
+            <section id='products' className='portfolio section-bg'>
                 <div className='container' data-aos='fade-up'>
                     <div className='section-title'>
                         <h2>Visual Aid</h2>

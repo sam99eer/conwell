@@ -3,6 +3,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import About from './components/About';
 import Call from './components/Call';
+import Certification from './components/Certification';
 import Contact from './components/Contact';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
@@ -34,6 +35,7 @@ const App = () => {
             <Call />
             <Products />
             <VisualAds />
+            <Certification />
             <Faq />
             <Contact />
             <Footer />
