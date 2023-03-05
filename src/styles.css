@@ -105,7 +105,7 @@ h6 {
 }
 
 .carousel-wrapper .carousel-inner img {
-    max-height: 80vw;
+    max-height: 80vh;
     object-fit: contain;
 }
 
